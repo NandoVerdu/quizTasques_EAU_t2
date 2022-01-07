@@ -1,0 +1,460 @@
+---
+info:
+  name: Indica el departament que realitza la tasca
+  main: "<p><p>"
+  results: "<p><p>"
+  level1: Super bé
+  level2: Genial
+  level3: Millorant
+  level4: Necessites millorar
+  level5: Necessites millorar
+questions:
+- q: Confecció d'ordre de reposició
+  a:
+  - option: Magatzem
+    correct: true
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte! 
+  incorrect: La tasca la realitza Magatzem
+- q: Registre d'entrada de mercaderies
+  a:
+  - option: Magatzem
+    correct: true
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte! 
+  incorrect: La tasca la realitza Magatzem
+- q: Registre d'eixida de mercaderies
+  a:
+  - option: Magatzem
+    correct: true
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte! 
+  incorrect: La tasca la realitza Magatzem
+- q: Inventari d'existències
+  a:
+  - option: Magatzem
+    correct: true
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte! 
+  incorrect: La tasca la realitza Magatzem
+- q: Emissió d'albarans
+  a:
+  - option: Magatzem
+    correct: true
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!  
+  incorrect: La tasca la realitza Magatzem
+- q: Recepció de comandes
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: true
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Vendes
+- q: Transports
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: true
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Vendes
+- q: Facturació
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: true
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Vendes
+- q: Gestió i control de cobraments i pagaments
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: true
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Tresoreria
+- q: Confecció de remeses bancàries
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: true
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Tresoreria
+- q: Control de saldos bancaris
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: true
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Tresoreria
+- q: Previsions de tresoreria
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: true
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Tresoreria
+- q: Cobertura de les necessitats de tresoreria (crèdits, prèstecs, descomptes d'efectes,...)
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: true
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Tresoreria
+- q: Reclamacions d'impagats
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: true
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Tresoreria
+- q: Emissió de comandes i control dels lliuraments
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: true
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Compres
+- q: Reclamació de comandes endarrerides
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: true
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Compres
+- q: Control de la documentació del vendedor
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: true
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Compres
+- q: Comprovació dels albarans i les factures de recepció de mercaderia
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: true
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Compres
+- q: Manteniment del pla general comptable
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: true
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Gestió Comptable
+- q: Registre dels assentaments comptables
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: true
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Gestió Comptable
+- q: Manteniment de l'aplicació comptable
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: true
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Gestió Comptable
+- q: Elaboració de balanços
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: true
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Gestió Comptable
+- q: Comprovació periòdica dels saldos comptables
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: true
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Gestió Comptable
+- q: Conciliació bancària
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: true
+  - option: Recursos humans
+    correct: false
+  correct: Correcte!
+  incorrect: La tasca la realitza Gestió Comptable
+- q: Selecció de personal
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: true
+  correct: Correcte!
+  incorrect: La tasca la realitza Recursos Humans
+- q: Confecció de contractes laborals
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: true
+  correct: Correcte!
+  incorrect: La tasca la realitza Recursos Humans
+- q: Pagament de les nòmines
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: true
+  correct: Correcte!
+  incorrect: La tasca la realitza Recursos Humans
+- q: Liquidació del pagament a la Seguritat Social
+  a:
+  - option: Magatzem
+    correct: false
+  - option: Vendes
+    correct: false
+  - option: Tresoreria
+    correct: false
+  - option: Compres
+    correct: false
+  - option: Gestió comptable
+    correct: false
+  - option: Recursos humans
+    correct: true
+  correct: Correcte!
+  incorrect: La tasca la realitza Recursos Humans
+---
